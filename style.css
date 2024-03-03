@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsl(47, 88%, 63%);
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 black;
+    border: 1px solid;
+}
+.blog img {
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.box {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    margin-left: 20px;
+    border-radius: 5px;
+    max-width: 20%;
+    padding: 5px 10px;
+    text-align: center;
+}
+.pub {
+    margin: 20px;
+}
+.pub p {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.pub h1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+.pub h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.info {
+    margin: 5px 20px 5px 20px;
+    color: hsl(0, 0%, 50%);
+}
+.avatar {
+    display: flex;
+    align-items: center;
+}
+.avatar p {
+    text-align: center;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+.avatar img {
+    width: 10% !important;
+    margin-right: 10px
+}
+@media (max-width: 400px){
+    .blog {
+        max-width: 90%;
+        height: auto;
+    }
+    .info p {
+        font-size: 14px;
+    }
+}
