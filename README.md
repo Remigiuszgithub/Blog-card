@@ -1,5 +1,5 @@
 # Frontend Mentor - Blog preview card
-
+Live: https://remigiuszgithub.github.io/Blog-card/
 ![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
